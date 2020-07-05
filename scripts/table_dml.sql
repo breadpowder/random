@@ -1,0 +1,1 @@
+insert into "Tickers" (name) values('USDJPY');
