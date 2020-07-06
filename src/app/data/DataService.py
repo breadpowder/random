@@ -65,6 +65,4 @@ class DataService:
 
 
 dataService = DataService()
-
-## dataService.prepareData('USDCAD', '1 hour')
-## dataService.populateData()
+dataService.populateData()
