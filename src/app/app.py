@@ -1,6 +1,5 @@
 from ib_insync import *
-import time
-from data.ib_dataFetch import IBDataFetch
+from data.postgres.DBAccessor import IBDataFetch
 # util.startLoop()  # uncomment this line when in a notebook
 
 ib = IB()
