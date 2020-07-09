@@ -29,7 +29,7 @@ class DataService:
             ## get data from up now, max range 3 months, convert to pandas dataframe:
             contract = Forex(ticker_name)
             bars = self.ib.reqHistoricalData(
-                contract, endDateTime='', durationStr='3 M',
+                contract, endDateTime='', durationStr='2 W',
                 barSizeSetting='10 mins', whatToShow='MIDPOINT', useRTH=True)
             df = util.df(bars)[['date', 'open', 'high', 'low', 'close']]
 
@@ -63,6 +63,7 @@ class DataService:
             return result
 
 
-
-dataService = DataService()
-dataService.populateData()
+###
+## comment when running main method
+#dataService = DataService()
+#dataService.populateData()

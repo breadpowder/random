@@ -1,3 +1,9 @@
 insert into "Tickers" (name) values('USDJPY');
 insert into "Tickers" (name) values('CADJPY');
 insert into "Tickers" (name) values('USDCAD');
+insert into "Tickers" (name) values('EURCAD');
+insert into "Tickers" (name) values('EURUSD');
+insert into "Tickers" (name) values('NZDUSD');
+insert into "Tickers" (name) values('NZDCAD');
+insert into "Tickers" (name) values('AUDCAD');
+insert into "Tickers" (name) values('AUDUSD');
