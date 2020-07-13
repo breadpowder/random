@@ -56,7 +56,6 @@ class DataService:
                 'Close': 'last'
             }
 
-
             result = df.resample(resample_dict[resampleFreq]).agg(ohlc_dict).dropna()
             logging.info("Total number of points: " + str(result.shape[0]))
 
